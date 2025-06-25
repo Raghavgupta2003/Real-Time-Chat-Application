@@ -1,0 +1,17 @@
+## I have make a script     
+##    "dev" : "nodemon index.js" //to run file by npm run dev 
+## "type" : "module" // to use import export syntax, instead of require that is common js syntax by default
+## since, I have created a index.js inside src folder
+## update => "dev": "nodemon src/index.js"
+##        => "main": "src/index.js",
+
+## checking routes on 
+## http://localhost:5001/api/auth/login
+## http://localhost:5001/api/auth/logout
+## http://localhost:5001/api/auth/signup
+
+
+## --------------REACT----------
+## using tailwind CSS from google
+## using daisyUI as a Tailwing CSS plugin
+## lucide react for loader
