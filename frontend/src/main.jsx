@@ -10,5 +10,5 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter>
     <App />
     </BrowserRouter>
-  </StrictMode>,
+  </StrictMode>, // it causes two render
 )

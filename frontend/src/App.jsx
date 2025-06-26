@@ -16,7 +16,9 @@ import {Toaster} from "react-hot-toast";
 
 const App = () => {
   // axiosInstance.get
-    const {authUser, checkAuth, isCheckingAuth} = useAuthStore()
+    const {authUser, checkAuth, isCheckingAuth, onlineUsers} = useAuthStore();
+
+    console.log("ONLINE USERS ", onlineUsers);
 
     useEffect(()=>{
       checkAuth();
@@ -42,7 +44,7 @@ const App = () => {
       </Routes>
 
       <Toaster />
-
+      
     </div>
   )
 }
