@@ -36,7 +36,7 @@ app.use("/api/auth", authRoutes)
 app.use("/api/messages", messageRoutes)
 
 //debug
-app.get("/", (req, res) => {
+app.get("*", (req, res) => {
   res.send("Socket server is up ✅");
 });
 
